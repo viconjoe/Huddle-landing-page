@@ -33,6 +33,7 @@
 }
 
 .chat {
+  src: './images/logo.svg';
   margin-top: 0px;
   margin-left: 35px;
   width: 130px;
@@ -50,6 +51,7 @@
 
 .illustration {
   width: 300px;
+  src: '../images/illustration-mockups.svg'
 }
 
 .down-box {
@@ -336,6 +338,7 @@ span {
 }
 
 .chat-desk {
+  src: './images/logo.svg';
   width: 300px;
   height: 100px;
 }
