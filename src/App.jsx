@@ -38,7 +38,7 @@ function App() {
               <div className='middle-mobile'>
     
                 <div className='header'>
-                  <img className='chat' src='./images/logo.svg'/>
+                  <img className='chat' src='../images/logo.svg'/>
                 </div>
     
                 <div className='illustration-box'>
@@ -50,7 +50,7 @@ function App() {
               <div className='middle-desk'>
 
                 <div className='header-desk'>
-                  <img className='chat-desk' src='/images/logo.svg'/>
+                  <img className='chat-desk' src='../images/logo.svg'/>
                 </div>
     
                 <div className='illustration-box-desk'>
@@ -76,13 +76,13 @@ function App() {
                   
                   <div className='social-media'>
                     <div className='icon-circle'>
-                      <img onClick={handleChooseFace} className={ chooseFace ? 'icon-media-activated' : 'icon-media'} src='/images/logo-facebook.svg'/>
+                      <img onClick={handleChooseFace} className={ chooseFace ? 'icon-media-activated' : 'icon-media'} src='../images/logo-facebook.svg'/>
                     </div>
                     <div className='icon-circle'>
-                      <img onClick={handleChooseInstagram} className={ chooseInstagram ? 'icon-media-activated' : 'icon-media'} src='/images/logo-twitter.svg'/>
+                      <img onClick={handleChooseInstagram} className={ chooseInstagram ? 'icon-media-activated' : 'icon-media'} src='../images/logo-twitter.svg'/>
                     </div>
                     <div className='icon-circle'>
-                      <img onClick={handleChooseTwitter} className={ chooseTwitter ? 'icon-media-activated-twitter' : 'icon-media'} src='/images/logo-instagram.svg'/>
+                      <img onClick={handleChooseTwitter} className={ chooseTwitter ? 'icon-media-activated-twitter' : 'icon-media'} src='../images/logo-instagram.svg'/>
                     </div>
                   </div>
     
