@@ -46,6 +46,18 @@ function App() {
                 </div>
     
               </div>
+
+              <div className='middle-desk'>
+
+                <div className='header-desk'>
+                  <img className='chat-desk' src='/images/logo.svg'/>
+                </div>
+    
+                <div className='illustration-box-desk'>
+                  <img className='illustration-desk' src='../images/illustration-mockups.svg'/>
+                </div>
+
+              </div>
     
               <div className='down-box'>
                 
