@@ -167,25 +167,26 @@ span {
   border: 1px solid hsl(300, 69%, 71%);
 }
 
-@media (min-width:400px) {
+@media (min-width:1360px) {
 .mother-box {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
   
 }
 
 .mobile {
   display: inline-flex;
-  width: 100vw;
-  height: 100vh;
+  min-width: 100%;
+  height: auto;
   background-image: url(../images/bg-desktop.svg);
   background-size: cover;
 }
 
 .header {
   display: none;
-  display: flex;
+  display: flex;object-fit: cover;
+    object-position: bottom;
   flex-direction: row;
   align-items: center;
   width: 100vw;
@@ -323,14 +324,14 @@ span {
 }
 
 .middle-desk {
-  width: 1190px;
-  height: 1000px;
+  min-width: 58%;
+    height: auto;
   display: block;
 }
 
 .header-desk {
   margin-top: 80px;
-  margin-left: 100px;
+  margin-left: 180px;
   width: 320px;
   height: 80px;
 }
@@ -342,15 +343,34 @@ span {
 
 .illustration-box-desk {
   margin-top: 140px;
-  margin-left: 100px;
-  width: 1100px;
-  height: 700px;
+  margin-left: 180px;
+  width: 95%;
+  height: auto;
 }
+
 .illustration-desk {
-  width: 1100px;
-  height: 700px;
+  border: 3px solid rgb(74, 209, 74);
+  min-width: 90%;
+  height: auto;
 }
 
+} 
 
+@media (max-width:1360px) {
+  .mother-box {
+    width: 100vw;
+    height: auto;
+    display: flex;
 
+  }
+
+  .mobile {
+    display:flex;
+    flex-direction: column;
+    justify-content:left ;
+    min-width: 100%;
+    height: auto;
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+  }
 }
